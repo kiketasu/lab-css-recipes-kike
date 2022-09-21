@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  color: #151515;
+  font-size: large;
+}
+
+main {
+  padding: 10px 80px;
+  text-align: justify;
+}
+
+.container {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+/* RESPONSIVE PARA IPHONE SE */
+@media only screen and (max-width: 400px) {
+  .center {
+    font-size: 100%;
+  }
+  main {
+    padding: 10px 20px;
+    text-align: start;
+  }
+}
+/* ---------------------------- */
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+#lista ul {
+  list-style: "- ";
+}
